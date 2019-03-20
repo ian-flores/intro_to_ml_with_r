@@ -20,11 +20,11 @@ class: center, middle
 
 # Types of Machine Learning
 
-- Unsupervised Learning
+.large[- Unsupervised Learning]
     - We don't have labels
-- Supervised Learning
+.large[- Supervised Learning]
     - We have labels
-- Reinforcement Learning
+.large[- Reinforcement Learning]
     - Totally different problem
         - Goal-oriented learning
 
@@ -59,9 +59,9 @@ Source: [StatsandBots](https://blog.statsbot.co/machine-learning-algorithms-183c
 ---
 # Parsnip package
 
-- Separate the definition of a model from its evaluation
-- Use different packages as engines to train models
-- Harmonize argument names for the same algorithms
+.large[- Separate the definition of a model from its evaluation]
+.large[- Use different packages as engines to train models]
+.large[- Harmonize argument names for the same algorithms]
 
 <img src='imgs/parsnip.jpg' height=300 align='center'>
 
@@ -73,12 +73,12 @@ class: center, middle, inverse
 ---
 # Canada - Soccer Crisis
 
-- Has only qualified for 1 World Cup in the last 33 years
+.large[- Has only qualified for 1 World Cup in the last 33 years]
     - Lost all 3 games
-- In 2014 & 2018 we saw some great improvements on the team
+.large[- In 2014 & 2018 we saw some great improvements on the team]
     - 10 games won in the 2014 Qualifiers
     - 12 games won in the 2018 Qualifiers
-- World Cup in 2022 & 2026
+.large[- World Cup in 2022 & 2026]
     
     
 ### What is the quality level of a given player?
@@ -88,14 +88,14 @@ class: center, middle, inverse
     - Predict how we can improve
     
 ---
-# FIFA - How are we going to win the next World Cup?
+# How are we going to win the next WC?
 
 ```{r, echo=FALSE}
 suppressPackageStartupMessages(library(tidyverse))
 suppressPackageStartupMessages(library(GGally))
 suppressPackageStartupMessages(library(hrbrthemes))
 
-knitr::opts_chunk$set(fig.height=6, warning = FALSE, message = FALSE)
+knitr::opts_chunk$set(fig.height=6, warning = FALSE, message = FALSE, crayon.enabled = TRUE)
 
 theme_set(theme_ipsum_rc(axis_title_size = 14, grid = 'XY'))
 ```
@@ -255,10 +255,10 @@ canadian_players %>%
 ---
 # Things we didn't cover today
 
-- Cross-Validation
-- Deep Learning
-- Regression Tasks
-- Unsupervised Learning Algorithms
+.large[- Cross-Validation]
+.large[- Deep Learning]
+.large[- Regression Tasks]
+.large[- Unsupervised Learning Algorithms]
 
 ---
 class: center, middle, inverse
